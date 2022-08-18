@@ -1,4 +1,4 @@
-# Detection-de-faux-billet
+# Detection-des-faux-billets
 Le machine learning vient en aide à la lutte contre la criminalité.
 Ce Projet est réalisé en formation de data analyst. Grâce à la régression logistique, créez un modèle qui permet de détecter les faux billets.
 
@@ -10,13 +10,18 @@ Vous vous voyez déjà en grand justicier combattant sans relâche la criminalit
 ... Bon, si on retombait les pieds sur terre? Travailler pour la police judiciaire, c'est bien, mais vous allez devoir faire appel à vos connaissances en statistiques, alors on y va !
 
 # Les Data
-La PJ vous transmet un [jeu de données](https://s3-eu-west-1.amazonaws.com/static.oc-static.com/prod/courses/files/parcours-data-analyst/notes.csv) contenant les caractéristiques géométriques de billets de banque. Pour chacun d'eux, nous connaissons :
+La PJ vous transmet un [jeu de données](https://s3-eu-west-1.amazonaws.com/static.oc-static.com/prod/courses/files/parcours-data-analyst/notes.csv) contenant les caractéristiques géométriques de billets de banque. Pour chacun d'eux, nous connaissons:
 
 la longueur du billet (en mm) ;
+
 la hauteur du billet (mesurée sur le côté gauche, en mm) ;
+
 La hauteur du billet (mesurée sur le côté droit, en mm) ;
+
 la marge entre le bord supérieur du billet et l'image de celui-ci (en mm) ;
+
 la marge entre le bord inférieur du billet et l'image de celui-ci (en mm) ;
+
 la diagonale du billet (en mm).
 # Mes missions
 ## mission 0
